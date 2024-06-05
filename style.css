@@ -1,0 +1,99 @@
+h1 {
+  color: red;
+}
+h1 {
+  font-size: 7em;
+}
+h2 {
+  /* Thay đổi số để thay đổi kích thước của văn bản tiêu đề. */
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.5em;
+}
+li {
+  font-size: 1.5em;
+}
+
+.container {
+  width: 100%;
+  background-image: url("./image/backgound_container.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 430px;
+  text-align: center;
+}
+
+.wanted_title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#most-wanted {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.wanted_name {
+  font-size: 24px;
+  margin: 10px 0;
+  color: blue;
+}
+
+.wanted_content {
+  font-size: 24px;
+  margin: 10px 50px;
+}
+
+.wanted_reason {
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.wanted_reason_list {
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.wanted_reason_list li {
+  font-size: 24px;
+}
+
+.wanted_reason_list li:first-letter {
+  text-transform: capitalize;
+}
+
+.wanted_prize {
+  text-transform: uppercase;
+  margin: 15px 0px;
+}
+
+.wanted_partner {
+  margin: 15px 0px;
+}
+
+.wanted_partner_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.wanted_partner_list img {
+  width: 150px;
+  height: 150px;
+}
+
+.wanted_place {
+  margin-top: 20px;
+  padding-bottom: 400px;
+  text-transform: capitalize;
+}
+
+.wanted_partner_name {
+  margin: 15px;
+}
